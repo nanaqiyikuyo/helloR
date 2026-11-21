@@ -71,6 +71,18 @@ git push origin main
 
 CI 运行结果如图#[@fig_ci]所示，提交后约 2--3 min 出结果。
 
+== 2.5 编译生成 PDF
+
+本笔记由 Typst 编写，用 Tinymist 编译为 PDF：
+
+```sh
+cd docs
+tinymist compile homework_01.typ --root .
+```
+
+产物为 `homework_01.pdf`。若已安装 typst CLI，也可用
+`typst compile homework_01.typ`。
+
 = 3 存在的问题
 
 1. 函数未随包编译：Component.R 起初不在 `R/` 下，CI 测试失败；
