@@ -1,5 +1,4 @@
-# 测试 Component.R（位于 R/temp/，非包导出，故需 source）
-source(testthat::test_path("..", "..", "R", "temp", "Component.R"))
+# 测试 Component.R（包内部函数，test_check 可直接访问）
 
 test_that("RemoveSeasonal：均值升序，异常序列去季节", {
   x <- c(1, 2, 3, 10, 20, 30)
