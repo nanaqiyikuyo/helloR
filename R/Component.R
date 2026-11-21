@@ -37,7 +37,7 @@ LS_MultiBreaks <- function(Y, X, Ips, ...) {
 #' single-breakpoint piecewise regression (same slope, different interception)
 #'
 #' @param Y The response vector
-#' @param T_anorm The predictor vector
+#' @param X The predictor vector
 #'
 #' @param Ic the position of change point, `[1, Ic]` and `[Ic + 1, end]` are
 #' corresponding to the perid

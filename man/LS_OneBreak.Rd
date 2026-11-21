@@ -9,12 +9,12 @@ LS_OneBreak(Y, X, Ic, ...)
 \arguments{
 \item{Y}{The response vector}
 
+\item{X}{The predictor vector}
+
 \item{Ic}{the position of change point, \verb{[1, Ic]} and \verb{[Ic + 1, end]} are
 corresponding to the perid}
 
 \item{...}{传给 \code{lm_solve()}。}
-
-\item{T_anorm}{The predictor vector}
 }
 \value{
 \itemize{
