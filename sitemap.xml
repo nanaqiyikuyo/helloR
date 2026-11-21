@@ -5,7 +5,10 @@
 <url><loc>/LICENSE.html</loc></url>
 <url><loc>/authors.html</loc></url>
 <url><loc>/index.html</loc></url>
+<url><loc>/reference/LS_MultiBreaks.html</loc></url>
+<url><loc>/reference/LS_OneBreak.html</loc></url>
 <url><loc>/reference/index.html</loc></url>
+<url><loc>/reference/lm_solve.html</loc></url>
 <url><loc>/reference/rpkg.template-package.html</loc></url>
 </urlset>
 
